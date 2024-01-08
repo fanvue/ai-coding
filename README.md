@@ -6,6 +6,8 @@ Please clone this repo, upload it to your own Github account, and complete the t
 
 You may complete the tasks in whatever manner you see fit, as long as it is in python or javascript/typescript - including jupyter notebooks, or javascript using a nodejs server. As such, you **may not** use OpenAI's playground in your final submission. (You can still use it for testing, of course.)
 
+Please create a folder for each Part, and for Part I, please create a folder for each task.
+
 Time to complete: 2 hours.
 
 # Part I
