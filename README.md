@@ -46,7 +46,7 @@ For example:
 # Part II
 
 Oftentimes you will have to manipulate data to prepare it for fine-tuning, or to extract insights.
-In this repo you will find a csv file, _fan_creator_chat.csv_, with messages between a fan and a creator. The task is to export a jsonl file with the example format below (taken from the [openAI fine-tuning walkthrough](https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset)).
+In this repo you will find a csv file, _fan_creator_chat.csv_, with messages between a fan and a creator. The task is to export a json file with the example format below (taken from the [openAI fine-tuning walkthrough](https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset)).
 
 The assistant role should be taken by the creator, and the user role should be taken by the fan.
 
