@@ -21,7 +21,7 @@ The email we sent should contain a OpenAI API key. This will allow you to use th
 ## First task:
 
 Create a PoC for a bot that takes in any message, and does the above. Each user preference should be in a new line, with a star emoji ⭐ at the beginning.
-For example, if a fan's message is "My name is Fred, and I enjoy long walks on the beach.", the final output should be:
+For example, if a fan's message is _"My name is Fred, and I enjoy long walks on the beach."_, the final output should be:
 
 - ⭐ Fan's name is Fred.
 - ⭐ Enjoys long walks on the beach.
@@ -30,7 +30,7 @@ Note: the words don't have to be exactly the same as in the example - what's imp
 
 The messages written by the fan can also contain information that is not related to the fan's preferences or personal details - in which case the bot should output a consistent response. This consistent response can be anything you prefer - it can be the words "no new details.", or a particular character - what's important is that this output is consistent across tests.
 
-For example, if the fan writes "Hello, how are you?", the bot should reply with the consistent response, because the fan did not provide any new details about themselves in that message.
+For example, if the fan writes _"Hello, how are you?"_, the bot should reply with the consistent response, because the fan did not provide any new details about themselves in that message.
 
 ## Second task:
 
@@ -38,9 +38,9 @@ Extend the PoC's functionality such that the fan details and preferences outputt
 
 For example:
 
-- The fan writes "I like long walks on the beach" in one message.
+- The fan writes _"I like long walks on the beach"_ in one message.
 - The bot outputs the fan preference as per the first task.
-- Then the fan writes "I like long walks on the beach" again.
+- Then the fan writes _"I like long walks on the beach"_ again.
 - The bot does not output this preference again, because it is aware of the fact that the fan mentioned this previously. Instead, it outputs the consistent response.
 
 # Part II
