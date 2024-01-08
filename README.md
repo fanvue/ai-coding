@@ -4,7 +4,7 @@ Technical task for the AI intern position at Fanvue.
 
 Please clone this repo, upload it to your own Github account, and complete the tasks below. Once you are done, please send us the link to your public repo.
 
-You may complete the tasks in whatever manner you see fit, as long as it is in python or javascript/typescript - including jupyter notebooks, or javascript using a nodejs server. As such, you **may not** use OpenAI's interface to complete the task.
+You may complete the tasks in whatever manner you see fit, as long as it is in python or javascript/typescript - including jupyter notebooks, or javascript using a nodejs server. As such, you **may not** use OpenAI's playground in your final submission. (You can still use it for testing, of course.)
 
 Time to complete: 2 hours.
 
@@ -12,11 +12,11 @@ Time to complete: 2 hours.
 
 One of Fanvue's core features is messaging between creators and fans.
 
-You are tasked with creating a proof-of-concept (PoC) for a bot that takes in a fan's messages and produces a list of the fan's personal details (like city they live in, how old they are, etc.), as well as a fan's personal preferences.
+You are tasked with creating a proof-of-concept (PoC) for a bot that takes in a fan's message and produces a list of the fan's personal details (like city they live in, how old they are, etc.), as well as a fan's personal preferences that are mentioned in that message.
 
-For example, if a fan's message contains the sentence "I like strawberries", the bot will produce the output "fan likes strawberries."
+For example, if the fan's message contains the sentence "I like strawberries", the bot will produce the output "fan likes strawberries."
 
-The email we sent should contain a OpenAI API key. This will allow you to use the OpenAI's API to build the bot.
+The email we sent should contain a OpenAI API key. This will allow you to use the [OpenAI's API](https://platform.openai.com/docs/api-reference/chat/create?lang=python) to build the bot. We recommend you use [the OpenAI Node.js or Python packages](https://platform.openai.com/docs/api-reference/introduction) for the PoC.
 
 ## First task:
 
